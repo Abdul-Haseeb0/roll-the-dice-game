@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll The Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="turns">
+            <div class="turn">You Have Total 5 Turns</div>
+            <div class="turn">Turns left: <span id="turn-counter">5</span></div>
+        </div>
+        
+        <h1>Roll The Dice <br> & <br> Match The Number</h1>
+        <h3 id="answer"></h3>
+        <div class="dice-wrapper">
+            <img  id="die-1" src="/imgs/dice-06.svg" >
+            <img  id="die-2" src="/imgs/dice-06.svg">
+        </div>
+
+        <p id="total">Your roll is 0</p>
+        <button onclick="roll()">ROLL THE DICE</button>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html
